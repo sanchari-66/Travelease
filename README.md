@@ -1,31 +1,14 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the TravelLog and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
+
 ***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** sn2606, TravelLog, LinkedIn, swaranjananayak@gmail.com, TravelLog, Social Network website for sharing travel experiences & travel micro-blogging.
--->
+A Travel Log web application designed to connect travelers, document tours, and share experiences. Built with PHP, CSS, and JavaScript, and powered by XAMPP for a seamless local development experience. This application is ideal for travel enthusiasts looking for a platform to log their journeys and connect with like-minded travelers.
 
 
+ravel Log is a platform that helps travelers:
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Stars][stars-shield]][stars-url]
-[![Forks][forks-shield]][forks-url]
-
+Record their travel experiences in detailed logs.
+Share travel stories and connect with other explorers.
+Plan trips with valuable insights and feedback from a vibrant community.
+The goal is to create a collaborative space where travelers can exchange ideas, tips, and recommendations.
 
 
 <!-- PROJECT LOGO -->
@@ -50,7 +33,33 @@
     <!-- <a href="https://github.com/sn2606/TravelLog/issues">Request Feature</a> -->
   </p>
 </p>
+User Authentication:
+Sign-up and login functionality for secure user accounts.
+Travel Posts:
+Create and publish travel logs with photos, descriptions, and destinations.
+Interactive Map:
+Visualize your trips with an integrated map.
+Friend Requests:
+Connect with other travelers and explore their journeys.
+Commenting System:
+Share feedback and engage with posts.
+Responsive Design:
+Mobile-friendly interface built with CSS for an optimal user experience on any device.
 
+Frontend:
+HTML5, CSS3, and JavaScript for the user interface and interactions.
+Backend:
+PHP for server-side scripting and application logic.
+MySQL for the database to store user data, posts, and logs.
+Development Tools:
+XAMPP to provide a local development environment for PHP and MySQL.
+Version Control:
+Managed via Git and hosted on GitHub.
+
+
+Prerequisites:
+Install XAMPP on your local machine.
+Ensure PHP, MySQL, and Apache are properly configured and running.
 
 
 <!-- TABLE OF CONTENTS -->
@@ -78,27 +87,10 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot]](https://example.com)
-
-
-![product-screenshot]
-
-
-### Built With
-
-* [HTML, CSS, JavaScript, PHP, MySQL]()
-* [fontawesome](https://fontawesome.com/)
-* [pexels](https://www.pexels.com/)
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
 
-To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -108,24 +100,7 @@ To get a local copy up and running follow these simple steps.
 2. IDE of choice - e.g. [VSCode](https://code.visualstudio.com/download)
 3. Web Browser of choice - e.g. [Google Chrome](https://www.google.com/intl/en_in/chrome/) 
 
-### Installation
 
-1. Start XAMPP and open phpMyAdmin on browser.
-2. Create a new database for the project and name it "travellog"
-3. Import the [Database](https://github.com/sn2606/TravelLog/blob/master/Database/travellog.sql)
-4. Clone the repository in any folder and name folder as per choice.
-    ```
-    git clone git@github.com:sn2606/TravelLog.git your-folder-name
-    ```
-5. Start XAMPP servers - Apache and MySQL
-6. Start PHP development server (at port of your choice) in Folder Directory via command line
-   ```
-    php -S localhost:5000
-   ```
-7. Navigate to http://localhost:5000
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -137,28 +112,5 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-<!-- CONTACT -->
-## Contact
-
-Swaranjana Nayak - [@LinkedIn](https://www.linkedin.com/in/swaranjana-nayak/) - swaranjananayak@gmail.com
-
-Project Link: [https://github.com/sn2606/TravelLog](https://github.com/sn2606/TravelLog)
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/sn2606/TravelLog.svg?style=for-the-badge
-[contributors-url]: https://github.com/sn2606/TravelLog/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/sn2606/TravelLog.svg?style=for-the-badge
-[forks-url]: https://github.com/sn2606/TravelLog/network/members
-[stars-shield]: https://img.shields.io/github/stars/sn2606/TravelLog.svg?style=for-the-badge
-[stars-url]: https://github.com/sn2606/TravelLog/stargazers
-[issues-shield]: https://img.shields.io/github/issues/sn2606/TravelLog.svg?style=for-the-badge
-[issues-url]: https://github.com/sn2606/TravelLog/issues
-[license-shield]: https://img.shields.io/github/license/sn2606/TravelLog.svg?style=for-the-badge
-[license-url]: https://github.com/sn2606/TravelLog/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/swaranjana-nayak/
-[Product Name Screen Shot]: Images/Landing-Page-SS.png
-[product-screenshot]: Images/about-us-rec.gif
